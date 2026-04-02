@@ -1,8 +1,8 @@
 package weather;
 
-public class Phone {
-    public String generateWeatherAlert(String weatherConditions) {
-        String alert = "It is " + weatherConditions;
-        return alert;
+public class Phone implements Notifier {
+    @Override
+    public String generateWeatherAlert(String weather) {
+        return "It is " + weather;
     }
 }

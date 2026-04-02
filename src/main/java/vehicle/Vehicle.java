@@ -1,7 +1,6 @@
 package vehicle;
 
 public class Vehicle {
-
     private final int maxFuel;
     private int remainingFuel;
 
@@ -9,11 +8,10 @@ public class Vehicle {
         this.maxFuel = maxFuel;
         remainingFuel = maxFuel;
     }
-
     // this is not a car's responsibility.
-    public void reFuel(){
-        remainingFuel = maxFuel;
-    }
+//    public void reFuel(){
+//        remainingFuel = maxFuel;
+//    }
 
     public int getMaxFuel() {
         return maxFuel;
@@ -31,3 +29,4 @@ public class Vehicle {
         remainingFuel--;
     }
 }
+

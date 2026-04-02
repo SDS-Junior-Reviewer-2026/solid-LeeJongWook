@@ -5,7 +5,12 @@ public class Studio extends Apartment {
         this.numberOfBedrooms = 0;
     }
 
+    @Override
     public void setSquareFootage(int sqft) {
         this.squareFootage = sqft;
+    }
+
+    @Override
+    public void setNumberOfBedrooms(int nb) {
     }
 }
